@@ -32,6 +32,6 @@ cacheSolve <- function(x, ...) {
   
   #This part of the code calcualtes the mean after the IF evaluation determines m is null and goes to generate the inverse. 
   data <- x$get()
-  m <- mean(data, ...)
+  m <- solve(data, ...)
   x$setInverse(m)
   m
