@@ -21,7 +21,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 
-## Write a short comment describing this function
+#This next portion of the code is similar to the one provided in the example, but the setInverse and getInverse variables are specified 
 
 cacheSolve <- function(x, ...) {
   m <- x$getInverse()
